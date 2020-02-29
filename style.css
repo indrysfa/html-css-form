@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #DCDCDC;
+}
+
+.wrapper{
+    width: 780px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    background: repeat #808080;
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.header .menu{
+    margin-top: 3px;
+    list-style: none;
+    float: right;
+}
+
+.header .menu li{
+    float: left;
+    padding: 8px 20px;
+    border-right: 1px solid #F5FFFA;
+}
+
+.header .menu li a{
+    color: #F5FFFA;
+    text-decoration: none;
+}
+
+#daftar-artikel{
+    width: 470px;
+    float: left;
+}
+
+.artikel{
+    background: #7B68EE;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.artikel img{
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+    height: 165px;
+}
+
+.artikel b{
+    color: #778899;
+    background: #FAF0E6;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.artikel p{
+    margin: 10px 0;
+}
+
+.artikel a{
+    display: block;
+    text-align: right;
+    color: #191970;
+}
+
+#sidebar{
+    width: 270px;
+    float: right;
+}
+
+#sidebar h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#sidebar ul li a{
+    color: #2F4F4F;
+    text-decoration: none;
+}
+
+#footer{
+    clear: both;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #5F9EA0;
+    padding: 5px;
+    color: #4B0082;
+}
